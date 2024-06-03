@@ -1,0 +1,5 @@
+In [1]: import pandas as pd
+In [2]: import numpy as np
+In [3]: %run f2forecast.py
+In [4]: df=pd.read_exel("forecast_dataset.xlsx", index_coll='Xm')
+In [5]: df
